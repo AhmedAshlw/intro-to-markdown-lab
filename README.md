@@ -1,12 +1,14 @@
-### Writing a Function in JavaScript
+# Writing a Function in JavaScript
 
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
 1. **Basic syntax**
 
+```JavaScript
 const functionName = (params) => {
   // code to be executed
 }
+```
 
 * __const__: const should be used whenever a function expression is assigned to a variable.
 * __The function name__: The name you choose for the function.
@@ -17,10 +19,10 @@ const functionName = (params) => {
 *Example:*
 
 const greet = (name) => {
-  console.log("Hello, " + name + "!");
+  `console.log("Hello, " + name + "!");`
 }
 
-Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
+>Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
 2. **Calling a function**
 
@@ -44,9 +46,24 @@ const total = addNums(2, 4);
 
 console.log(total) // Expected value: 6
 
-For more information on functions and how they are used in JS, check out the MDN docs. 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+>For more information on functions and how they are used in JS, check out the MDN docs. 
+>>[mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
+4. __Another Examples__
+
+![mushrooms](https://plus.unsplash.com/premium_photo-1691960547773-2393c0559208?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+
+| Syntax | Description |
+| ------ | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+This text has been ~~redacted~~. 
 
 
 
